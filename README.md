@@ -12,7 +12,7 @@ Conducted a secure code review and remediated a critical SQL Injection (SQLi) vu
 4. Implemented Parameterized Queries (Prepared Statements) to strictly separate executable SQL code from user-supplied data, neutralizing the injection vector.
 
 ### Evidence
-![SQLi Remediation](evidence/sqli-remediation.png)
+![SQLi Remediation](evidences/sqli-remediation.png)
 
 ### Lessons Learned
 Relying on client-side validation or simple string escaping is insufficient for robust application security. Implementing prepared statements at the database driver level is the only definitive method for preventing SQL Injection attacks.
